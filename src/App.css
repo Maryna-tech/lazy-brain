@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  margin:auto;
+}
+
+.App {
+  text-align: center;
+}
+
+body{
+  background: #dbf1ff;
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  background-color: #eb43ff;
+  padding: 8px;
+}
+
+.app1{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  margin: 5px;
+}
+
+.logo{
+  border-radius: 50%;
+  padding: 2px;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:36px ;
+  text-decoration: none;
+  line-height: 20px;
+  color: #ffffff;
+  letter-spacing: 3.5px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+main{
+  padding: 4px;
+}
+
+h2{
+  font-size: 28px;
+  margin-top: 39px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+p{
+  padding: 10px;
+}
+
+button{
+    text-align: centre;
+    background-color: #00ffb6;
+    border: #030159 2px;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 45px;
+    transition: transform .2s;
+}
+
+button:hover{
+  animation-name: none;
+  transform: scale(1.05);
+  background-color: #E0FB6E;
+  color:#C5A8F9;
+}
+
+.app2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity{
+  background-color: pink;
+  padding: 3.5%;
+  width: 300px;
+  box-shadow: 5px 10px #888888;
+  font-size: 25px;
+  font-weight: 300px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+footer{
+  background-color: #eb43ff;
+  padding: 6px;
+} 
+
+footer p{
+  font-size: 15px;
+  padding: 5px;
+  font-style: normal;
+  font-weight: none;
+}
